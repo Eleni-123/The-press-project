@@ -1,0 +1,70 @@
+.main-header {
+  background-color: #003b59;
+  font-family: "Roboto Slab", serif;
+  padding: 10px 20px;
+}
+
+.logo {
+  height: 50px; /* προσαρμόζεται ανάλογα με το favicon */
+  margin-right: 10px;
+}
+
+.site-info h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.site-info p {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.2;
+}
+
+#login-link,
+#sign-up-link {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar {
+  max-width: 1300px;
+  background-color: #15698b;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px; /* απόσταση μεταξύ των στοιχείων */
+}
+
+.navbar li {
+  display: flex;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none; /*αφαιρεί την υπογράμμιση κάτω από το περιεχόμενο*/
+}
+
+.navbar li:hover {
+  background-color: #01466f;
+}
+
+.site-photo {
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center; /* οριζόντια κεντράρισμα */
+  align-items: center; /* κάθετο κεντράρισμα */
+}
+
+#main-containt {
+  background-color: #efefef;
+}
