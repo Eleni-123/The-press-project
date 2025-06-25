@@ -158,5 +158,6 @@ body {
   display: inline-block;
 }
 
-.content {
+.article {
+  border-bottom: solid 1px #e3e3e3;
 }
