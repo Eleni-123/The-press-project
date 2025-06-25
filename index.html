@@ -10,7 +10,11 @@
     </title>
     <!-- Ο τίτλος της καρτέλας στον browser-->
 
-    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link
+      rel="icon"
+      href="https://thepressproject.gr/app/uploads/2019/06/index.ico"
+      sizes="32x32"
+    />
     <!-- Για την προσθήκη του favicon στην καρτέλα του browser -->
 
     <link rel="stylesheet" href="styles.css" />
@@ -31,75 +35,291 @@
   </head>
 
   <body>
-    <div class="main-header d-flex justify-content-between text-white">
-      <div class="d-flex">
-        <!--Αυτό το div περιέχει το logo και το site-info. Εξυπηρετεί σκοπούς εμφάμισης στο css αρχείο για να βλέπουμε σωστά την διάταξη -->
-        <img src="favicon.svg" alt="logo-site" class="logo" />
-        <!-- Για το logo της σελίδας -->
+    <div class="header-background"></div>
+    <div class="main-content">
+      <div class="main-header d-flex justify-content-between text-white">
+        <div class="d-flex">
+          <!--Αυτό το div περιέχει το logo και το site-info. Εξυπηρετεί σκοπούς εμφάνισης στο css αρχείο για να βλέπουμε σωστά την διάταξη -->
+          <img src="favicon.svg" alt="logo-site" class="logo" />
+          <!-- Για το logo της σελίδας -->
 
-        <div class="site-info">
-          <h1>ThePressProject</h1>
-          <p>
-            powered by our community members
-            <i class="fa-sharp fa-solid fa-users"></i>
-            <!-- Για την προσθήκη του icon με τους 3 ανθρώπους -->
-          </p>
+          <div class="site-info">
+            <h1>ThePressProject</h1>
+            <p>
+              powered by our community members
+              <i class="fa-sharp fa-solid fa-users"></i>
+              <!-- Για την προσθήκη του icon με τους 3 ανθρώπους -->
+            </p>
+          </div>
+        </div>
+
+        <div class="auth-links">
+          <!--Αυτο το div περιέχει το icon, την σύνδεση, την εγγραφή και το (|)-->
+          <i class="fa-solid fa-circle-user"></i>
+          <!--Για την προσθήκη του icon contact-->
+
+          <a id="login-link">Σύνδεση</a>
+          <span> | </span>
+          <a id="sign-up-link">Εγγραφή</a>
         </div>
       </div>
 
-      <div class="auth-links">
-        <!--Αυτο το div περιέχει το icon, την σύνδεση, την εγγραφή και το (|)-->
-        <i class="fa-solid fa-circle-user"></i>
-        <!--Για την προσθήκη του icon contact-->
+      <!--Εδώ τελειώνει το header του site -->
 
-        <a id="login-link">Σύνδεση</a>
-        <span> | </span>
-        <a id="sign-up-link">Εγγραφή</a>
+      <div class="w-100 d-flex">
+        <div class="navbar-w-100 w-100">
+          <nav class="menu-navbar">
+            <ul>
+              <!--Εδώ είναι το εικονίδιο του σπιτιού-->
+              <li>
+                <a href="#"><i class="fa-solid fa-house"></i></a>
+              </li>
+              <li><a href="#">Newsroom</a></li>
+              <li class="we-play-with-positions"><a href="#">Πολιτική</a></li>
+              <li><a href="#">Οικονομία</a></li>
+              <li><a href="#">Διεθνή</a></li>
+              <li><a href="#">Ρεπορτάζ</a></li>
+              <li><a href="#">Ανάλυση</a></li>
+              <li>
+                <a href="#">tpp.<strong>TV</strong></a>
+              </li>
+              <li>
+                <a href="#">tpp.<strong>Radio</strong></a>
+              </li>
+              <li>
+                <a href="#"><strong>Ανασκόπηση</strong></a>
+              </li>
+              <li><a href="#">Πολιτισμός</a></li>
+              <li><a href="#">TPP International</a></li>
+              <li>
+                <a href="#"><strong>ΖΗΝ</strong></a>
+              </li>
+              <li>
+                <a href="#">για τον <strong>Κώστα</strong></a>
+              </li>
+              <li class="search-item">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="support">Support</div>
+      </div>
+
+      <div class="site-photo">
+        <img src="site-photo.jpeg" alt="This is a site-photo" />
+      </div>
+
+      <div class="grid-container">
+        <div id="column1">
+          <div id="article1">
+            <h3>Σήμερα</h3>
+            <p>
+              Γερμανία: Υπεγράφη η συμφωνία για τον νέο κυβερνητικό συνασπισμό,
+              υπό την ηγεσία του Φ. Μερτς
+            </p>
+            <p>Πριν από 19 δευτερόλεπτα</p>
+          </div>
+
+          <div id="article2">
+            <p>
+              Χαλάνδρι: Συναυλία στην κεντρική πλατεία ενάντια στην υποβάθμιση
+              του δημόσιου σχολείου
+            </p>
+            <p>Πρίν 2 ώρες</p>
+          </div>
+
+          <div id="article3">
+            <p>Ημερολόγιο 3ης & 4ης Μαϊου 2025</p>
+            <p>Πρίν 2 ώρες</p>
+          </div>
+
+          <div id="article4">
+            <p>
+              ΣΥΡΙΖΑ για Marfin: "Υπουργός Προστασίας του Πολίτη τότε και σήμερα
+              ο επανειλημμένως αποτυχημένος Χρυσοχοϊδης"
+            </p>
+            <p>Πρίν 2 ώρες</p>
+          </div>
+
+          <div id="article5">
+            <p>
+              Η Χάγη απέρριψε τις κατηγορίες του Σουδάν κατά των Ηνωμένων
+              Αραβικών Εμιράτων για συμμετοχή σε γενοκτονία
+            </p>
+            <p>Πρίν 3 ώρες</p>
+          </div>
+
+          <div id="article6">
+            <p>
+              ΚΚΕ: "Εξακολουθούν ν΄ αξιοποιούν το έγκλημα της Marfin για να
+              ενοχοποιήσουν τελικά τους αγώνες των εργαζομένων
+            </p>
+            <p>Πρίν 4 ώρες</p>
+          </div>
+
+          <div id="article7">
+            <p>
+              Ομόφωνα ένοχοι κρίθηκαν οι κατηγορούμενοι για τη φασιστική επίθεση
+              στον ΕΚΧ "φαβέλα" το 2018
+            </p>
+            <p>Πρίν 4 ώρες</p>
+          </div>
+
+          <div id="article8">
+            <p>
+              "Οι σκελετοί στη ντουλάπα της Ιστορίας" -Μια έρευνα για τους
+              ομαδικούς τάφους στο Γεντί Κουλέ
+            </p>
+            <p>Πρίν 4 ώρες</p>
+          </div>
+
+          <div id="article9">
+            <p>
+              Πραγματογνώμονες συγγενών θυμάτων των Τεμπών αμφισβητούν τη
+              γνησιμότητα των βίντεο της εμπορικής αμαξοστοιχίας
+            </p>
+            <p>Πρίν 5 ώρες</p>
+          </div>
+
+          <div id="article10">
+            <p>
+              Τα συστατικά της ΝΔ για την "αντιμετώπιση της ανήλικης
+              παραβατικότητας":Kids Wallet, αστυνομία και αυταρχισμός
+            </p>
+            <p>Πρίν 6 ώρες</p>
+          </div>
+
+          <div id="TTP_FB_page">
+            <h3>TPP FACEBOOK PAGE</h3>
+            <button><i class="fa-solid fa-thumbs-up"></i> Like 178K</button>
+          </div>
+        </div>
+
+        <div id="column2">
+          <div class="sub-grid-container">
+            <div id="columnA">
+              <div class="politics_photo">
+                <img
+                  src="politics_photo.jpeg"
+                  alt="This a photo about politics"
+                  width="600px"
+                />
+              </div>
+
+              <div id="news-section1">
+                <h3>Ελλάδα</h3>
+                <img
+                  src="sinaulia-gia-to-paidi.jpg"
+                  alt="A photo about a concert"
+                  width="600px"
+                />
+                <p>
+                  Χαλάνδρη: Συναυλία στην κεντρική πλατεία ενάντια στην
+                  υποβάθμιση του δημόσιου σχολείου
+                </p>
+                <p>
+                  Πραγματογνώμονες συγγενών θυμάτων των Τεμπών αμφισβητούν τη
+                  γνησιότητα των βίντεο της εμπορικής αμαξοστοιχίας
+                </p>
+                <p>
+                  Επεισόδιο έμφυλης κακοποίησης σε ξενοδοχείο του
+                  Ρεθύμνου-Ξυλοκόπησε την σύντροφό του και αυτοτραμαυτίστηκε
+                </p>
+              </div>
+            </div>
+
+            <div id="columnB">
+              <div>
+                <h3>headlines</h3>
+                <p>
+                  Η Χάγη απέρριψε τις κατηγορίες του Σουδάν κατά των Ηνωμένων
+                  Αραβικών Εμιράτων για συμμετοχή σε γενοκτονία
+                </p>
+              </div>
+
+              <div id="head-article1">
+                <p>
+                  ΚΚΕ: "Εξακολουθούν ν΄ αξιοποιούν το έγκλημα της Marfin για να
+                  ενοχοποιήσουν τελικά τους αγώνες των εργαζομένων
+                </p>
+              </div>
+
+              <div id="head-article2">
+                <p>
+                  Ομόφωνα ένοχοι κρίθηκαν οι κατηγορούμενοι για τη φασιστική
+                  επίθεση στον ΕΚΧ "φαβέλα" το 2018
+                </p>
+              </div>
+
+              <div id="head-article3">
+                <p>
+                  "Οι σκελετοί στη ντουλάπα της Ιστορίας" -Μια έρευνα για τους
+                  ομαδικούς τάφους στο Γεντί Κουλέ
+                </p>
+              </div>
+
+              <div id="news-section2">
+                <h3>Πολιτική</h3>
+                <p>
+                  ΣΥΡΙΖΑ για Marfin: "Υπουργός Προστασίας του Πολίτη τότε και
+                  σήμερα ο επανειλημμένως αποτυχημένος Χρυσοχοϊδης"
+                </p>
+                <p>
+                  Αλληλεγγύη πανεπιστημιακώνσ στον Τάκη Πολίτη και στους
+                  ακτιβιστές του Στόλου για τη Γάζα
+                </p>
+                <p>
+                  Στη Βουλή σήμερα δύο νέες επίκαιρες ερωτήσεις της Πλεύσης
+                  Ελεθερίας για Τέμπη και Εργατικά Δυστυχήματα
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="column3">
+          <div id="esoda_ttp">
+            <img src="esoda_ttp.jpg" alt="A statistic photo" />
+            <p>
+              <strong
+                >Η σελίδα διαφάνειας του ThePressProject για το 2024</strong
+              >
+            </p>
+            <p>
+              Ξεκινήσαμε πέρσι ένα βήμα που εκτιμούμε πως δίνει τον τόνο της
+              διαφοράς για αυτό που κάνουμε στο ThePressProject, καλύτερα από
+              κάθε άλλη γενικόλογη περιγραφή. Το εγχείρημά μας βασίζεται
+              οικονομικά στη...
+            </p>
+            <p>Αναλυτικά</p>
+          </div>
+
+          <div id="kit_epiviosis">
+            <p>>>Ανασκόπηση S11E18: ΚΙΤ ΕΠΙΒΙΩΣΗΣ 72 ΩΡΩΝ</p>
+            <img src="kit_epiviosis.jpg" alt="Article photo" />
+            <p>
+              <i class="fa-brands fa-youtube"></i>
+              <strong>ΑΝΑΣΚΟΠΗΣΗ S11E18: ΚΙΤ ΕΠΙΒΙΩΣΗΣ 72 ΩΡΩΝ</strong>
+            </p>
+            <p>
+              Ξαφνικά, εκεί που όλα πήγαιναν καλά και κανείς δεν ανησυχούσε,
+              είδαμε μία συνέντευξη τύπου και ένα βίντεο, από τη Χαντζα Λαμπίμπ,
+              που είναι επίτροπος ετοιμότητας και διαχείρισης κρίσεων της
+              ευρωπαϊκής...
+            </p>
+            <p>Αναλυτικά</p>
+          </div>
+
+          <div id="Thepressprojectnewsletter">
+            <img src="newsletter.jpeg" alt="newsletter" />
+          </div>
+
+          <div id="calendar">
+            <img src="calendar.jpeg" alt="calendar" />
+          </div>
+        </div>
       </div>
     </div>
-
-    <!--Εδώ τελειώνει το header του site -->
-
-    <nav class="navbar">
-      <ul>
-        <!--Εδώ είναι το εικονίδιο του σπιτιού-->
-        <li>
-          <a href="#"><i class="fa-solid fa-house"></i></a>
-        </li>
-        <li><a href="#">Newsroom</a></li>
-        <li><a href="#">Πολιτική</a></li>
-        <li><a href="#">Οικονομία</a></li>
-        <li><a href="#">Διεθνή</a></li>
-        <li><a href="#">Ρεπορτάζ</a></li>
-        <li><a href="#">Ανάλυση</a></li>
-        <li>
-          <a href="#">tpp.<strong>TV</strong></a>
-        </li>
-        <li>
-          <a href="#">tpp.<strong>Radio</strong></a>
-        </li>
-        <li>
-          <a href="#"><strong>Ανασκόπηση</strong></a>
-        </li>
-        <li><a href="#">Πολιτισμός</a></li>
-        <li><a href="#">TPP International</a></li>
-        <li>
-          <a href="#"><strong>ΖΗΝ</strong></a>
-        </li>
-        <li>
-          <a href="#">για τον <strong>Κώστα</strong></a>
-        </li>
-        <li>
-          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-        </li>
-        <li id="support"><a href="#">Support</a></li>
-      </ul>
-    </nav>
-
-    <div class="site-photo">
-      <img src="site-photo.jpeg" alt="This is a site-photo" />
-    </div>
-
-    <div id="main-containt"></div>
   </body>
 </html>
