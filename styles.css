@@ -95,6 +95,7 @@
 .cover_title {
   font-size: 1.2rem;
   color: #bab9b9;
+  margin-left: 10px;
 }
 
 .cover_title ::before {
@@ -144,29 +145,47 @@
   background-color: #bfb3a3;
 }
 
-#esoda_ttp {
+.esoda_ttp {
   background-color: #15698b;
   color: white;
-  font-family: serif;
   padding: 15px 15px;
   margin-bottom: 20px;
+  font-family: "Roboto Slab";
 }
 
-#kit_epiviosis {
+.kit_epiviosis {
   background-color: #bf121c;
   color: white;
-  font-family: serif;
   padding: 15px 15px;
+  font-family: "Roboto Slab";
+}
+
+.kit_epiviosis_content,
+.esoda_ttp_content {
+  border-bottom: 2px solid white;
+}
+
+.kit_epiviosis_title,
+.esoda_ttp_title {
+  font-weight: 700;
+  font-size: 18px;
+}
+.kit_epiviosis_paragraf,
+.esoda_ttp_paragraf {
+  font-size: 14px;
+  font-weight: 300;
 }
 
 .main-content {
   max-width: 1350px;
-  position: fixed;
+  /* position: fixed;  palia entoli pou eixa alla katargoyse to schrool*/
+  margin: 0 auto;
+  position: relative;
 }
 
 body {
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
 }
 
 .header-background {
@@ -223,12 +242,34 @@ body {
   color: #e6222e;
 }
 
-/*.reportaz {
+.reportaz {
   border-top: 3px solid #009ae9;
   margin-top: -2px;
 }
 
-.analisi { 
+.analisi {
   border-top: 3px solid #9d3b2e;
   margin-top: -2px;
-}*/
+}
+
+.tppRadio {
+  border-top: 3px solid #7d0068;
+  margin-top: -2px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.TTP_social {
+  margin-top: 20px;
+}
+.TTP_FB_page {
+  font-size: 0.875em;
+  font-weight: 500;
+}
+.TTP_FB_page_btn {
+  background: #3b5998;
+  color: #fff;
+  font-size: 14px;
+}
