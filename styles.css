@@ -84,12 +84,11 @@
   background-position: center center;
   position: relative;
   margin-bottom: 20px;
-  margin-left: -15px;
-  margin-right: -15px;
+  /* margin-left: -15px; */
+  /* margin-right: -15px; */
   padding-bottom: 0;
-  height: 639.3px;
-  width: 538.4px;
   color: white;
+  width: 100%;
 }
 
 .cover_title {
@@ -123,8 +122,7 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; /* Τέσσερις ίσες στήλες */
-  gap: 20px; /* Απόσταση ανάμεσα στις στήλες */
+  grid-template-columns: 0.5fr 3fr 1fr; /* Τέσσερις στήλες */
   padding: 20px;
 }
 
@@ -136,13 +134,14 @@
 
 .sub-grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; /* Τέσσερις ίσες στήλες */
+  grid-template-columns: 1.5fr 3fr 1fr; /* Τέσσερις ίσες στήλες */
   gap: 20px; /* Απόσταση ανάμεσα στις στήλες */
   padding: 20px;
 }
 
-#head-article3 {
+.head-article3 {
   background-color: #bfb3a3;
+  padding: 20px;
 }
 
 .esoda_ttp {
@@ -218,6 +217,7 @@ body {
 .article {
   border-bottom: solid 1px #e3e3e3;
   font-size: 15px;
+  margin-bottom: 10px;
 }
 
 .time {
@@ -272,4 +272,46 @@ body {
   background: #3b5998;
   color: #fff;
   font-size: 14px;
+}
+
+.column2 {
+  border-left: solid 1px #e3e3e3;
+  border-right: solid 1px #e3e3e3;
+}
+
+.newsletter_photo,
+.calendar_photo {
+  width: 100%;
+  height: auto;
+}
+
+.row1,
+.row2 {
+  display: flex;
+}
+.r1c1 {
+  max-width: 66.66667%;
+}
+.r1c2 {
+  max-width: 33.33333%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.r2c1,
+.r2c2 {
+  max-width: 50%;
+}
+
+.c_title {
+  border-top: 3px solid #003b59;
+  border-bottom: 1px solid #000;
+}
+.c_title::before {
+  content: "» "; /*unicode character U+00BB */
+  color: #e6222e;
+}
+
+.sinaulia-gia-to-paidi {
+  max-width: 100%;
 }
