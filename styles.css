@@ -86,6 +86,7 @@
   display: flex;
   justify-content: center; /* οριζόντια κεντράρισμα */
   align-items: center; /* κάθετο κεντράρισμα */
+  width: 100%;
 }
 
 .art_politics_photo {
@@ -363,4 +364,50 @@ body {
 
 .remaining_area {
   background-color: #efefef;
+}
+
+.footer_background {
+  background-color: #003b59;
+  color: white;
+}
+
+.logo_footer {
+  max-width: 1350px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #0b5b7c;
+}
+
+.footer_menu {
+  max-width: 1350px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #15698b;
+  flex-wrap: wrap;
+}
+
+.navication_options ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  max-width: 75%;
+}
+
+.navication_options li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.arrow {
+  background-color: #003b59;
+  padding: 20px 20px;
+}
+
+.navication_btns {
+  display: flex;
+  max-width: 25%;
+}
+
+.site_copywrite {
+  text-align: right;
 }
