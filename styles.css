@@ -384,13 +384,17 @@ body {
   position: relative;
   background-color: #15698b;
   flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.navication_options {
+  max-width: 75%;
 }
 
 .navication_options ul {
   list-style: none;
   display: flex;
   gap: 15px;
-  max-width: 75%;
 }
 
 .navication_options li:hover {
@@ -406,6 +410,8 @@ body {
 .navication_btns {
   display: flex;
   max-width: 25%;
+  justify-content: end;
+  padding-bottom: 20px;
 }
 
 .site_copywrite {
