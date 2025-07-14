@@ -1,3 +1,7 @@
+body {
+  height: 100%;
+}
+
 .main-header {
   font-family: "Roboto Slab", serif;
   padding: 10px 20px;
@@ -195,14 +199,9 @@
   position: relative;
 }
 
-body {
-  /* display: flex; */
-  /* justify-content: center; */
-}
-
 .header-background {
   background-color: #003b59;
-  height: 186px;
+  height: auto;
   width: 100%;
 }
 .support {
@@ -287,6 +286,10 @@ body {
   font-size: 14px;
 }
 
+.column1 {
+  max-width: 100%;
+}
+
 .column2 {
   border-left: solid 1px #e3e3e3;
   border-right: solid 1px #e3e3e3;
@@ -369,6 +372,7 @@ body {
 .footer_background {
   background-color: #003b59;
   color: white;
+  height: 100%;
 }
 
 .logo_footer {
@@ -376,28 +380,30 @@ body {
   margin: 0 auto;
   position: relative;
   background-color: #0b5b7c;
+  padding-left: 20px;
 }
 
 .footer_menu {
   max-width: 1350px;
   margin: 0 auto;
   position: relative;
+  display: flex;
   background-color: #15698b;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.navication_options {
+.navigation_options {
   max-width: 75%;
 }
 
-.navication_options ul {
+.navigation_options ul {
   list-style: none;
   display: flex;
   gap: 15px;
 }
 
-.navication_options li:hover {
+.navigation_options li:hover {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -407,13 +413,22 @@ body {
   padding: 20px 20px;
 }
 
-.navication_btns {
+.navigation_btns {
   display: flex;
   max-width: 25%;
   justify-content: end;
   padding-bottom: 20px;
+  margin-right: 20px;
 }
 
 .site_copywrite {
   text-align: right;
+  margin-right: 20px;
+}
+
+.Thepressprojectnewsletter,
+.calendar,
+.kit_epiviosis,
+.esoda_ttp {
+  max-width: 100%;
 }
