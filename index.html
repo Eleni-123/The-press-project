@@ -65,8 +65,14 @@
 
       <nav class="w-100 d-flex">
         <div class="navbar-w-100 w-100">
-          <nav class="menu-navbar">
-            <ul>
+          <div
+            class="menu-navbar justify-content-start align-items-start flex-column"
+          >
+            <i
+              class="fa-solid fa-bars d-lg-none fa-2x text-white p-2"
+              id="burger"
+            ></i>
+            <ul id="nav" class="d-block d-none d-lg-flex">
               <!--Εδώ είναι το εικονίδιο του σπιτιού-->
               <li>
                 <a href="#"><i class="fa-solid fa-house"></i></a>
@@ -106,7 +112,7 @@
                 <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
               </li>
             </ul>
-          </nav>
+          </div>
         </div>
         <div class="support">Support</div>
       </nav>
@@ -436,6 +442,7 @@
         </div>
       </div>
     </div>
+
     <footer class="footer_background">
       <div class="footer_menu">
         <nav class="navigation_options">
@@ -475,5 +482,11 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      document.getElementById("burger").addEventListener("click", () => {
+        document.getElementById("nav").classList.toggle("d-none");
+      });
+    </script>
   </body>
 </html>
