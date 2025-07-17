@@ -85,6 +85,7 @@
 .site-photo {
   background-color: #f6f6f6;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center; /* οριζόντια κεντράρισμα */
   align-items: center; /* κάθετο κεντράρισμα */
   width: 100%;
@@ -136,7 +137,6 @@
 .grid-container {
   display: grid;
   grid-template-columns: 0.5fr 3fr 1fr; /* Τέσσερις στήλες */
-  padding: 20px;
   background-color: white;
 }
 
@@ -144,13 +144,6 @@
   background-color: #f0f0f0;
   padding: 10px;
   border: 1px solid #ccc;
-}
-
-.sub-grid-container {
-  display: grid;
-  grid-template-columns: 1.5fr 3fr 1fr; /* Τέσσερις ίσες στήλες */
-  gap: 20px; /* Απόσταση ανάμεσα στις στήλες */
-  padding: 20px;
 }
 
 .head-article3 {
@@ -419,7 +412,7 @@
 
 .navigation_btns {
   display: flex;
-  max-width: 25%;
+  max-width: auto;
   justify-content: end;
   padding-bottom: 20px;
   margin-right: 20px;
@@ -455,6 +448,58 @@
     text-align: right;
   }
 
-  .menu-navbar {
+  .navication_ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .footer_background {
+    width: 100%;
+  }
+
+  .footer_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .navigation_btns {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    margin: 0 0;
+  }
+  .navigation_btns > * {
+    flex: 1; /* κάθε παιδί πιάνει ίσο χώρο */
+    text-align: center; /* το κείμενο στη μέση */
+  }
+
+  .remaining_area {
+    max-width: auto;
+  }
+
+  .grid-container {
+    /* display: flex; */
+    /* flex-direction: column; */
+    grid-template-columns: auto;
+  }
+
+  .column1,
+  .column2,
+  .column3 {
+    max-width: auto;
+  }
+
+  .column2,
+  .r1c1,
+  .r1c2,
+  .r2c1,
+  .r2c2,
+  .r3c1,
+  .r3c2 {
+    flex-direction: column;
   }
 }
