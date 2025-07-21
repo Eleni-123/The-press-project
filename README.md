@@ -59,6 +59,13 @@ In the future, I’d like to:
 - Include real article data fetched dynamically.
 - Enhance accessibility
 
+## Final Results
+
+![photo of my project](image.png)
+![photo of my project](image-1.png)
+![photo of my project](image-2.png)
+![photo of my project](image-3.png)
+
 ## 🙋‍♀️ **About Me**
 
 I am a passionate learner and developer, building projects to explore and master front-end technologies.  
