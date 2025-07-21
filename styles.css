@@ -184,7 +184,6 @@
 
 .main-content {
   max-width: 1350px;
-  /* position: fixed;  palia entoli pou eixa alla katargoyse to schrool*/
   margin: 0 auto;
   position: relative;
 }
@@ -298,10 +297,12 @@
   margin-bottom: 25px;
 }
 .r1c1 {
-  max-width: 66.66667%;
+  /* max-width: 66.66667%; */
+  max-width: auto;
 }
 .r1c2 {
-  max-width: 33.33333%;
+  /* max-width: 33.33333%; */
+  max-width: auto;
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -310,7 +311,8 @@
 .r2c2,
 .r3c1,
 .r3c2 {
-  max-width: 50%;
+  /* max-width: 50%; */
+  max-width: auto;
   padding-right: 25px;
   padding-left: 25px;
 }

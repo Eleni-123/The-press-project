@@ -63,6 +63,8 @@ In the future, I’d like to:
 ## Final Results
 
 ![photo of my project](image.png)
+![responsive](image-1.png)
+![responsive]
 
 ## 🙋‍♀️ **About Me**
 
