@@ -50,6 +50,7 @@ The main purpose of this project was to:
 - Creating responsive designs using media queries.
 - Managing visual hierarchy and consistency across the website.
 - Better organization of CSS for scalability.
+- Markdown
 
 ## 📌 **Next Steps**
 
@@ -62,9 +63,6 @@ In the future, I’d like to:
 ## Final Results
 
 ![photo of my project](image.png)
-![photo of my project](image-1.png)
-![photo of my project](image-2.png)
-![photo of my project](image-3.png)
 
 ## 🙋‍♀️ **About Me**
 
